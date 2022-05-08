@@ -1,8 +1,14 @@
-# Variables
+### Variables ###
 
 first_name = 'Juan'
 last_name = 'Lavallen'
 age = 19
+male = True
+
+print(f'Type: {type(first_name)}')  # <class 'str'>
+print(f'Type: {type(last_name)}')  # <class 'str'>
+print(f'Type: {type(age)}')       # <class 'int'>
+print(f'Type: {type(male)}')     # <class 'bool'>
 
 print(f'First Name: {first_name}')
 print(f'Last  Name: {last_name}')
