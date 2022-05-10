@@ -22,3 +22,5 @@ print(colors)
 
 colors.sort()  # sort A --> Z
 print(colors)
+
+print(len(colors))
