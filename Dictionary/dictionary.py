@@ -15,3 +15,7 @@ print(data['name'])  # --> Lionel Messi
 # Creando una nueva clave con un nuevo valor
 data['nationality'] = 'Argetina'
 print(data)
+
+# Eliminando un elemento
+del data['nationality']
+print(data)
