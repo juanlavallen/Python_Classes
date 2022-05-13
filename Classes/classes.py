@@ -20,3 +20,7 @@ class Person:
 
 person = Person('Lionel Messi', 34, 'Argentina')  # Instancia de la clase
 print(person)
+
+print(person.name)  # --> Lionel Messi
+print(person.age)  # --> 34
+print(person.nationality)  # --> Argentina
