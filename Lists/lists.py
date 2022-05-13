@@ -24,3 +24,8 @@ colors.sort()  # sort A --> Z
 print(colors)
 
 print(len(colors))
+
+### Tuple ###
+
+colors = tuple(colors)
+print(colors)
