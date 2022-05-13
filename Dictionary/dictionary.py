@@ -19,3 +19,5 @@ print(data)
 # Eliminando un elemento
 del data['nationality']
 print(data)
+
+print(data.items())  # Separa los elementos --> Tuple
