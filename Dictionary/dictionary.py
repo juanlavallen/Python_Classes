@@ -7,3 +7,7 @@ data = {
 }
 
 print(data['sons'])
+
+# Cambiando el valor de 'name'
+data['name'] = 'Lionel Messi'
+print(data['name'])  # --> Lionel Messi
