@@ -18,9 +18,15 @@ class Person:
         return f'Person: {self.name}, {self.age}, {self.nationality}'
 
 
-person = Person('Lionel Messi', 34, 'Argentina')  # Instancia de la clase
-print(person)
+person_one = Person('Lionel Messi', 34, 'Argentina')  # Instancia de la clase
+person_two = Person('Thiago Messi',  9, 'Argentina')
+print(person_one)
+print(person_two)
 
-print(person.name)  # --> Lionel Messi
-print(person.age)  # --> 34
-print(person.nationality)  # --> Argentina
+print(person_one.name)  # --> Lionel Messi
+print(person_one.age)  # --> 34
+print(person_one.nationality)  # --> Argentina
+
+# Accendiendo a los metodos
+person_one.write()
+person_two.write()
