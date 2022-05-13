@@ -30,3 +30,10 @@ print(person_one.nationality)  # --> Argentina
 # Accendiendo a los metodos
 person_one.write()
 person_two.write()
+
+# Cambiar un valor
+person_one.nationality = 'Argentino'  # Argentina --> Argentino
+person_two.nationality = 'Argentino'  # Argentina --> Argentino
+
+person_one.write()
+person_two.write()
