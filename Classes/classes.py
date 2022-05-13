@@ -37,3 +37,14 @@ person_two.nationality = 'Argentino'  # Argentina --> Argentino
 
 person_one.write()
 person_two.write()
+
+### Herencia ###
+
+class User(Person):
+    def __str__(self) -> str:
+        return f'User: {self.name}, {self.age}, {self.nationality}'
+
+
+user_one = User('Sofia', 23, 'Argentina')
+print(user_one)
+user_one.write()
