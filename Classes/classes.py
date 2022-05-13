@@ -41,10 +41,19 @@ person_two.write()
 ### Herencia ###
 
 class User(Person):
+    def __init__(self, name, age, nationality, email) -> None:
+        super().__init__(name, age, nationality)
+        self.email = email
+
     def __str__(self) -> str:
-        return f'User: {self.name}, {self.age}, {self.nationality}'
+        return f'User: {self.name}, {self.age}, {self.nationality}, {self.email}'
+
+    def write(self):
+        super().write()
+        print(f'Email: {self.email}')
 
 
-user_one = User('Sofia', 23, 'Argentina')
+user_one = User('Sofia', 23, 'Argentina', 'sofia@gmail.com')
 print(user_one)
 user_one.write()
+print(user_one.email)
