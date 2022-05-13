@@ -21,3 +21,5 @@ del data['nationality']
 print(data)
 
 print(data.items())  # Separa los elementos --> Tuple
+
+print(data.values())  # Devuelve solo el valor de cada elemento
