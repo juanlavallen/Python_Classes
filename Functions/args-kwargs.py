@@ -7,3 +7,10 @@ def add(*args):
 
 
 add(1, 1, 1, 1)  # 4
+
+
+def data(name, **kwargs):
+    print(name, kwargs)
+
+
+data('Juan', age=19, status=True)
