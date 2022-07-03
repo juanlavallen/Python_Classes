@@ -14,6 +14,12 @@ print(f'First Name: {first_name}')
 print(f'Last  Name: {last_name}')
 print(f'Age: {age}')
 
+PI = 3.10
+LANG = 'ES'
+
+print(PI)
+print(LANG)
+
 # full_name = first_name + ' ' + last_name
 full_name = f'{first_name} {last_name}'
 print(full_name)
