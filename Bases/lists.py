@@ -1,5 +1,8 @@
 ### Arrays ###
 
+from turtle import color
+
+
 colors = ['Red', 'White', 'Blue', 'Black', 'Orange']
 print(colors[0])  # [0] --> Red
 print(colors[2])  # [2] --> Blue
@@ -24,6 +27,8 @@ colors.sort()  # sort A --> Z
 print(colors)
 
 print(len(colors))
+
+print(colors[1:]) # [1:] --> ['X', '2', '3', etc]
 
 ### Tuple ###
 
