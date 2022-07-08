@@ -6,7 +6,9 @@ data = {
     'sons': ['Mateo', 'Ciro', 'Thiago']
 }
 
-print(data['sons'])
+print(data['sons'])  # ['Mateo', 'Ciro', 'Thiago']
+print(data['sons'][2])  # Thiago
+print(data['sons'][2].upper())  # THIAGO
 
 # Cambiando el valor de 'name'
 data['name'] = 'Lionel Messi'
@@ -23,3 +25,9 @@ print(data)
 print(data.items())  # Separa los elementos --> Tuple
 
 print(data.values())  # Devuelve solo el valor de cada elemento
+
+# Keys
+print(data.keys())  # Retorna todas las Keys
+
+# Values
+print(data.values())  # Retorna todos los valores
