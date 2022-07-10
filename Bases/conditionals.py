@@ -1,5 +1,15 @@
 ### Conditionals ###
 
+hunger = True
+thirst = True
+
+if hunger and not thirst:
+    print('Tengo hambre')
+elif hunger and thirst:
+    print('Tengo hambre y sed')
+else:
+    print('Tengo sed')
+
 number_one = int(input('Ingrese un numero:'))
 number_two = int(input('Ingrese otro numero:'))
 
